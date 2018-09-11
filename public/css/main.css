@@ -1,29 +1,51 @@
 html, body {
     height: 100%;
     margin: 0;
-  }
+}
 
+h1, h2, h3, h4, h4{
+    color: #130C31;
+}
+
+h1{
+   
+    text-align: center;
+    font-size: 55px;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+}
 label{
     font-weight: bold;
 }
 
 body{
-    background-color: rgb(39, 97, 151);
+    background-color: #3C7890;
     position: relative;
 }
 
 .container{
-    background-color: aliceblue;
-    /* opacity: .9; */
+    background-color: #D6ECF5;
     padding-bottom: 10px;
+}
+
+#SC_Intro_Vid{
+   width: 90%;
+   min-width: 400px;
+
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
 }
 
 header{
     width: 100%;
-    height: 100px;
-    background-color: white;
+    height: 106px;
+    background-color: #D6ECF5;
     position: fixed;
-    border-bottom: 2px;
+    border-bottom: 2px solid #130C31;
     top: 0;
     z-index: 2;
 }
@@ -32,6 +54,7 @@ header{
     left: 0;
     height: 100px;
     width: 439px;
+    margin: 2px;
    
     
     background-image: url("../images/SPECTRUM_CONNECTIONS_LOGOS.png");
@@ -50,8 +73,22 @@ video{
     border-style: solid
 }
 #mainContent{
-    margin-top: 64px;
+    margin-top: 10px;
     margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #D6ECF5;
+    
+}
+
+.menulink{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;     
+    margin-top: 20px;
+    width: 80%;
+    height: 200px;
+
     
 }
 
@@ -68,23 +105,29 @@ li{
 
 .wrapper {
     min-height: 100%;
-  
     /* Equal to height of footer */
     /* But also accounting for potential margin-bottom of last child */
-    margin-bottom: -50px;
+    margin-bottom: -350px;
   }
   footer,
   .push {
-    height: 50px;
+    height: 350px;
   }
 
 footer {
    
-    background-color: #efefef;
+    background-color: #130C31;
     text-align: center;
     padding: 1rem;
 }
 
+.pic{
+    float: left;
+    margin-right: 50px;
+    background-size: cover;
+    width: 145px;
+    height: 200px;
+}
 
 #serviceImg1{
     width: 30%;
