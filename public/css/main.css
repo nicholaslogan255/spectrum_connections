@@ -66,11 +66,26 @@ header{
     margin-top: 100px;
 }
 
+.deepBlue{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: #3C7890;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.source{
+    font-style: italic;
+    font-size: 11px;
+}
+
+
 
 video{
     margin-left: auto;
     margin-right: auto;
-    border-style: solid
 }
 #mainContent{
     margin-top: 10px;
@@ -94,9 +109,9 @@ video{
 
 hr{
     border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    height: 3px;
+    background: #130C31;
+
 }
 
 li{
@@ -117,6 +132,7 @@ li{
 footer {
    
     background-color: #130C31;
+    color: white;
     text-align: center;
     padding: 1rem;
 }
@@ -134,4 +150,14 @@ footer {
     /* height: 100px; */
     margin-left: auto;
     margin-right: auto;
+}
+
+
+button {
+    background-color: #3C7890;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
 }
