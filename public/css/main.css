@@ -7,6 +7,9 @@ h1, h2, h3, h4, h4{
     color: #130C31;
 }
 
+a{
+    font-family: 'Roboto', sans-serif;
+}
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     color: #130C31;
@@ -15,7 +18,6 @@ h1, h2, h3, h4, h4{
     font-weight: 500;
     line-height: 1.2;
 }
-
 
 
 h1{
@@ -27,6 +29,10 @@ h1{
 h2{
     font-size: 35px;
     text-align: center;
+}
+
+h3{
+    font-size: 1.75em;
 }
 label{
     font-weight: bold;
@@ -40,6 +46,9 @@ p{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+}
+strong{
+    font-weight: bolder;
 }
 
 .container{
@@ -147,10 +156,19 @@ hr{
     font-size: 25px;
 }
 
-li{
+ul li{
     font-size: 20px;
     text-align: left;
+    line-height: 1.5;
+    font-weight: 400;
+    list-style-type: square; 
 }
+
+.navbar-nav li{
+    list-style-type: none;
+}
+
+
 
 .wrapper {
     min-height: 100%;
