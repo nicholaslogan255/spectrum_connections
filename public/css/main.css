@@ -45,8 +45,13 @@ p{
     line-height: 1.5;
     margin-bottom: 10px;
 }
+
+i{
+    font-style: italic;
+}
 strong{
     font-weight: bolder;
+    
 }
 
 .container{
@@ -115,6 +120,7 @@ header{
 .source{
     font-style: italic;
     font-size: 11px;
+    margin-top: 20px;
 }
 
 
@@ -160,7 +166,7 @@ ul li{
     line-height: 1.5;
     font-weight: 400;
     list-style-type: square; 
-    margin-left: 20px;
+    margin-left: 58px;
 
     font-family: 'Roboto', sans-serif;
 }
@@ -170,7 +176,9 @@ ul li{
     list-style-type: none;
 }
 
-
+.row{
+    margin-top: 20px;
+}
 
 .wrapper {
     min-height: 100%;
@@ -189,6 +197,10 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
+}
+
+.deepBlue p{
+    text-align: left;
 }
 
 .pic{
