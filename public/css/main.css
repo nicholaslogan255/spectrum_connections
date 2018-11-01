@@ -70,7 +70,7 @@ strong{
 
 header{
     width: 100%;
-    height: 106px;
+    height: 86px;
     background-color: #D6ECF5;
     position: fixed;
     border-bottom: 2px solid #130C31;
@@ -80,7 +80,7 @@ header{
 
 #header-logo{
     left: 0;
-    height: 100px;
+    height: 80px;
     width: 439px;
     margin: 2px;
    
@@ -91,7 +91,7 @@ header{
 }
 
 .navbar-underheader{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 
