@@ -31,6 +31,11 @@ h4 { font-size: 1.25em;}
 h5 { font-size: 1.00em;}
 h5 { font-size: .75em;}
 
+.align-center{
+    text-align: center;
+}
+
+
 label{
     font-weight: bold;
 }
