@@ -1,0 +1,11 @@
+#download_links .row {
+    /* border: 1px black solid; */
+    border-radius:  20px;
+    padding: 10px 10px;
+    background-color:  rgb(171, 191, 209);
+}
+
+
+#download_links .row a{
+    width: 100%;
+}

@@ -15,6 +15,7 @@
     <!-- Style Sheets -->
     <link rel="stylesheet" href="../public/css/reset.css">
     <link rel="stylesheet" href="../public/css/main.css">
+    <link rel="stylesheet" href="../public/css/navbar.css">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -27,40 +28,35 @@
 
 <body>
     <div class="wrapper">
-        <header>
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(171, 191, 209);">
+
             <a href="../index.html">
                 <div id="header-logo"></div>
             </a>
-        </header>
 
-        <nav class="navbar navbar-expand-lg navbar-underheader navbar-dark" style="background-color: #130C31;">
-            <a class="navbar-brand" href="../index.html">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i style="font-size:24px;color:black" class="fa">&#xf103;</i>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="mission.html">Mission</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services
-
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">About Us
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="supportus.html">Support Us</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">About us</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="../views/about.html">Leadership</a>
+                            <a class="dropdown-item" href="../views/mission.html">Mission</a>
+                            <a class="dropdown-item" href="../views/services.html">Services</a>
+                            <a class="dropdown-item" href="../views/links.html">News and Events</a>
+                        </div>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="resources.html">Resources</a>
+                        <a class="nav-link" href="../views/supportus.html">Support Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/resources.html">Resources</a>
                     </li>
                 </ul>
             </div>
@@ -70,13 +66,15 @@
 
         <div class="container">
 
-            <div class="row">
+            <div class="row first-row">
                 <div class="col-lg-12">
 
-                    <h1>About Us:</h1>
+                    <h1>Leadership:</h1>
 
-                    <h4>Spectrum Connections is a nonprofit organization founded by professionals and parents with over 20 years
-                        of direct service experience with autistic youth and adults. The chief founding partners are Melva
+                    <h4>Spectrum Connections is a nonprofit organization founded by professionals and parents with over
+                        20 years
+                        of direct service experience with youth and adults on the spectrum. The chief founding partners
+                        are Melva
                         Radtke and Judy Logan.
                     </h4>
 
@@ -97,7 +95,7 @@
             <br>
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="pic" src="../public/images/staff/melva.jpg">
+                    <img class="pic" src="../public/images/staff/UpdatedPhotos/Melva.PNG">
                     <h3>Melva Radtke</h3>
                     <ul>
                         <li>Job Coach - Lionsgate AIM Transition Program</li>
@@ -108,8 +106,10 @@
                         <!-- <li>Teacher, attorney, legislative researcher and policy analyst</li> -->
 
                     </ul>
-                    <p>As a parent and professional autism provider, I learned firsthand how the abrupt end of services after
-                        high school can take a negative toll on the independent living prospects of young autistic adults.
+                    <p>As a parent and professional autism provider, I learned firsthand how the abrupt end of services
+                        after
+                        high school can take a negative toll on the independent living prospects of young autistic
+                        adults.
                         I know we can do better by these amazing and talented youth. </p>
 
                 </div>
@@ -119,15 +119,17 @@
             <br>
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="pic" src="../public/images/staff/IMG952019021195070207.jpg">
+                    <img class="pic" src="../public/images/staff/UpdatedPhotos/Judy.PNG">
                     <h3>Judy Logan</h3>
                     <ul>
                         <li>CPA with Masters in Nonprofit Management</li>
                         <li>Over 30 years of finance experience in all sectors</li>
                         <li>Parent with 25 years of direct autism experience</li>
                     </ul>
-                    <p> I appreciate the strengths and uniqueness of those living on the Spectrum! I want to build a community
-                        who appreciate and utilize the skills of these individuals whereby these individuals are living out
+                    <p> I appreciate the strengths and uniqueness of those living on the Spectrum! I want to build a
+                        community
+                        who appreciate and utilize the skills of these individuals whereby these individuals are living
+                        out
                         the best of their abilities. </p>
                 </div>
             </div>
@@ -136,14 +138,15 @@
             <br>
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="pic" src="../public/images/staff/LEAH_SPANGENBERG.jpg">
+                    <img class="pic" src="../public/images/staff/UpdatedPhotos/Leah.PNG">
                     <h3>Leah Ellis</h3>
                     <ul>
                         <li>M.A., Special Education</li>
                         <li>Special Education Teacher - Edina Public School</li>
                         <li>Tutor - Ellis Social Learning</li>
                     </ul>
-                    <p>As a service provider to younger children on the autism spectrum, I help my students build foundational
+                    <p>As a service provider to younger children on the autism spectrum, I help my students build
+                        foundational
                         social skills. It is essential to me that services continue through adulthood to ensure lifelong
                         success.
                     </p>
@@ -154,7 +157,7 @@
             <br>
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="pic" src="../public/images/staff/Alicia Spectrum Connections Photo .jpg">
+                    <img class="pic" src="../public/images/staff/UpdatedPhotos/Alicia.PNG">
                     <h3>Alicia Reinke-Tuthill </h3>
                     <ul>
                         <li>M.A. Human Services</li>
@@ -162,8 +165,10 @@
                         <li>Post-Secondary Navigator/Communications Consultant - Autism Works</li>
                         <li>Education Assistant - Northeast Metro 916 Intermediate School District</li>
                     </ul>
-                    <p>As an advocate and disability services director, I see the challenges that college students on the autism
-                        spectrum experience daily. It is my passion to provide student’s ample opportunities and supports
+                    <p>As an advocate and disability services director, I see the challenges that college students on
+                        the autism
+                        spectrum experience daily. It is my passion to provide student’s ample opportunities and
+                        supports
                         that appropriately meet their needs. Understanding and supporting their unique needs, strengths,
                         and gifts allows them to build individual self-confidence and self-advocacy skills which we hope
                         will lead to greater success in their educational, community, and employment journey.</p>
@@ -175,7 +180,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <br>
-                    <img class="pic" src="../public/images/staff/amanda.png">
+                    <img class="pic" src="../public/images/staff/UpdatedPhotos/Amanda.PNG">
                     <h3>Amanda Braith</h3>
                     <ul>
                         <li>20+ Years non-profit office management</li>

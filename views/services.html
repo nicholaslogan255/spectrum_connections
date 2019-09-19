@@ -17,6 +17,7 @@
     <!-- Style Sheets -->
     <link rel="stylesheet" href="../public/css/reset.css">
     <link rel="stylesheet" href="../public/css/main.css">
+    <link rel="stylesheet" href="../public/css/navbar.css">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -31,38 +32,35 @@
 <body>
 
     <div class="wrapper">
-        <header>
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(171, 191, 209);">
+
             <a href="../index.html">
                 <div id="header-logo"></div>
             </a>
-        </header>
 
-        <nav class="navbar navbar-expand-lg navbar-underheader navbar-dark" style="background-color: #130C31;">
-            <a class="navbar-brand" href="../index.html">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i style="font-size:24px;color:black" class="fa">&#xf103;</i>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="mission.html">Mission</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active " href="#">Services
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="supportus.html">Support Us</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">About us</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="../views/about.html">Leadership</a>
+                            <a class="dropdown-item" href="../views/mission.html">Mission</a>
+                            <a class="dropdown-item" href="../views/services.html">Services</a>
+                            <a class="dropdown-item" href="../views/links.html">News and Events</a>
+                        </div>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="resources.html">Resources</a>
+                        <a class="nav-link" href="../views/supportus.html">Support Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/resources.html">Resources</a>
                     </li>
                 </ul>
             </div>
@@ -72,14 +70,14 @@
 
         <div class="container">
 
-            <div class="row">
-                <div class="col-lg-12">
+            <div class="row ">
+                <div class="col-lg-12 first-row">
                     <h1>Our Services:</h1>
                     <h2>We provide services in four program areas: </h2>
 
                     <div class="row">
-                        <div class="col-lg-2"></div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-5">
                             <h3>
                                 <a href="#selfawareness">
                                     <strong>Self-Advocacy</strong>
@@ -92,7 +90,7 @@
                             </h3>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-lg-5">
                             <h3>
                                 <a href="#postsecondarynavigation">
                                     <strong>Post-Secondary Navigation</strong>
@@ -104,7 +102,7 @@
                                 </a>
                             </h3>
                         </div>
-                        <div class="col-lg-2"></div>
+                        <div class="col-lg-1"></div>
                     </div>
 
 
@@ -116,7 +114,7 @@
                 <div class="col-lg-12">
                     <h2>Self Advocacy</h2>
                     <p>
-                        It’s important that young people with autism understand their strengths and challenges to achieve their goals. It’s also
+                        It’s important that young people on the spectrum understand their strengths and challenges to achieve their goals. It’s also
                         important that they are able to describe how autism affects their style of learning and interactions
                         with others. Self awareness about autism can help young people ask for appropriate clarifications
                         or supports, for example,
@@ -145,7 +143,7 @@
             <div id="jobpreparedness" class="row jumbotron">
                 <div class="col-lg-12">
                     <h2>Job Preparedness</h2>
-                    <p>Identifying realistic job goals is a challenge for young adults with autism. Many may be hired, especially
+                    <p>Identifying realistic job goals is a challenge for young adults on the spectrum. Many may be hired, especially
                         when labor markets are tight, but they often struggle with keeping jobs long term because the job
                         turns out to be a poor match for their skills.
                     </p>
@@ -169,19 +167,19 @@
                     <br>
                     <br>
                     <h2>
-                        <strong>Interview Intensive</strong>
+                        <strong>Interview Intensive Training</strong>
                     </h2>
-                    <p>Interviews play a key role in getting a job. They can also be a major hurdle for job seekers with autism
+                    <p>Interviews play a key role in getting a job. They can also be a major hurdle for job seekers on the spectrum
                         who aren’t skilled at reading social cues or thinking flexibly when responding to hypothetical questions.
                         Early research concludes that direct instruction in the social mechanics of job interviews can improve
-                        the interview performance of job seekers with autism and, in turn, their likelihood of getting a
+                        the interview performance of job seekers on the spectrum and, in turn, their likelihood of getting a
                         job.
                     </p>
                     <br>
-                    <p>Spectrum Connections offers an Interview Intensive designed to help job seekers with autism learn and
+                    <p>Spectrum Connections offers an Interview Intensive Training designed to help job seekers on the spectrum learn and
                         use the key skills they need to make a positive impression on potential employers. </p>
                     <br>
-                    <p>The Interview Intensive consists of 4 - 5 interview skill learning sessions which focus instruction on
+                    <p>The Interview Intensive Training consists of 4 - 5 interview skill learning sessions which focus instruction on
                         customized learning goals, such as projecting confidence; engaging in reciprocal conversation; and
                         maintaining appropriate eye contact with an interviewer. Participants then participate in 2 to 4
                         mock interviews with business professionals. Pre- and post-training assessments are used to measure
@@ -199,7 +197,7 @@
                     <br>
                     <h2>Post-Secondary Navigation</h2>
                     <br>
-                    <p>The number of students with autism who attend post-secondary schools is rapidly increasing. During grade
+                    <p>The number of students on the spectrum who attend post-secondary schools is rapidly increasing. During grade
                         school through high school, these students were supported by teams of educators and specialists who
                         were required by law to offer those services. After high school, the legal mandate suddenly ends
                         and there is no federal requirement to provide services for students who still need supports and
@@ -209,11 +207,11 @@
                     <p>
                         All post-secondary schools have disability service offices which can offer accommodations for academic needs, but typically
                         don’t provide services to address their social communication and executive function challenges. In
-                        addition, many students with autism don’t register with these offices, often because of their anxiety
+                        addition, many students on the spectrum don’t register with these offices, often because of their anxiety
                         about their diagnosis.
                     </p>
                     <br>
-                    <p> This list is a summary of responses from post-secondary students with autism about the services they
+                    <p> This list is a summary of responses from post-secondary students on the spectrum about the services they
                         received in college compared to the services they most commonly needed.
                     </p>
                     <br>
@@ -243,7 +241,7 @@
                     <br>
                     <br>
                     <p>Spectrum Connections provides one-on-one supports for post-secondary students to help fill this critical
-                        service gap for post-secondary students with autism. Areas of support include:
+                        service gap for post-secondary students on the spectrum. Areas of support include:
                     </p>
                     <ul>
                         <li>Transitioning from home to campus life and from college to work</li>
@@ -266,7 +264,7 @@
                     <h2>E-Learning Series for Business and Community</h2>
 
                     <p>Public awareness of autism has dramatically increased in recent years. More needs to be done to build
-                        a deeper understanding of the infinite variations of autism and how individuals with autism can be
+                        a deeper understanding of the infinite variations of autism and how individuals on the spectrum can be
                         an important part of the community.
                     </p>
 
@@ -281,13 +279,13 @@
                     <ul>
                         <li>Introduction to autism</li>
                         <li>Autism behaviors and their functions</li>
-                        <li>General strategies for working with employees and students with autism</li>
+                        <li>General strategies for working with employees and students on the spectrum</li>
                     </ul>
                     <br>
                     <p class="listHeader">INTERMEDIATE STRAND</p>
                     <ul>
                         <li>Autism Review</li>
-                        <li>General strategies for working with employees and students with autism</li>
+                        <li>General strategies for working with employees and students on the spectrum-connections</li>
                         <li>Case studies and problem solving for specific, challenging situations
                             <ul>
 

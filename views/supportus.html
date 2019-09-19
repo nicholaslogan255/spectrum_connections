@@ -15,7 +15,8 @@
     <!-- Style Sheets -->
     <link rel="stylesheet" href="../public/css/reset.css">
     <link rel="stylesheet" href="../public/css/main.css">
-    <link rel="stylesheet" href="../public/css/support.css">
+    <link rel="stylesheet" href="../public/css/navbar.css">
+    <link rel="stylesheet" href="../public/css/view_specific/support.css">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -28,42 +29,36 @@
 
 <body>
     <div class="wrapper">
-        <header>
+
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(171, 191, 209);">
+
             <a href="../index.html">
                 <div id="header-logo"></div>
             </a>
-        </header>
 
-        <nav class="navbar navbar-expand-lg  navbar-underheader navbar-dark" style="background-color: #130C31;">
-            <a class="navbar-brand" href="../index.html">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i style="font-size:24px;color:black" class="fa">&#xf103;</i>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="mission.html">Mission</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services
-
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us
-
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="supportus.html">Support Us
-                            <span class="sr-only">(current)</span>
-                        </a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">About us</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="../views/about.html">Leadership</a>
+                            <a class="dropdown-item" href="../views/mission.html">Mission</a>
+                            <a class="dropdown-item" href="../views/services.html">Services</a>
+                            <a class="dropdown-item" href="../views/links.html">News and Events</a>
+                        </div>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="resources.html">Resources</a>
+                        <a class="nav-link" href="../views/supportus.html">Support Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/resources.html">Resources</a>
                     </li>
                 </ul>
             </div>
@@ -73,7 +68,7 @@
 
         <div class="container">
 
-            <div class="row">
+            <div class="row first-row">
                 <div class="col-lg-12">
                     <div id="mainContent"></div>
 
@@ -82,48 +77,52 @@
                     <h3>Our work is accomplished through generous partners like you!</h3>
 
 
-                        <div class="row">
-                            <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6">
 
-                                <div class="tierbox">
-                                    <div class="suggested_donation">A $10 Donation</div>
-                                    <p>could offer a lesson to a person in need.</p>
-                                </div>
+                            <div class="tierbox">
+                                <div class="suggested_donation">Friend</div>
+                                Donating a total between $25 - $50 makes you a Friend
 
                             </div>
-                            <div class="col-lg-6">
-                                <div class="tierbox">
-                                    <div class="suggested_donation">A $50 Donation</div>
-                                    <p>could offer a lesson to a person in need.</p>
-                                </div>
+
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="tierbox">
+                                <div class="suggested_donation">Supporter</div>
+                                Donating a total between $50 - $100 makes you a Supporter
+
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                    <div class="tierbox">
-                                            <div class="suggested_donation">A $150 Donation</div>
-                                            <p>could offer a lesson to a person in need.</p>
-                                        </div>
-                            </div>
-                            <div class="col-lg-6">
-                                    <div class="tierbox">
-                                            <div class="suggested_donation">A $500 Donation</div>
-                                            <p>could provide the services needed to help a young adult for one year.</p>
-                                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="tierbox">
+                                <div class="suggested_donation">Advocate</div>
+                                Donating a total between $100 - $250 makes you a Advocate
+
                             </div>
                         </div>
-
-
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                    <input type="hidden" name="cmd" value="_s-xclick" />
-                                    <input type="hidden" name="hosted_button_id" value="VMBU7LD92J95Y" />
-                                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                                    <button id="Donate" alt="Donate with PayPal button">Donate</button>
-                                </form>
+                        <div class="col-lg-6">
+                            <div class="tierbox">
+                                <div class="suggested_donation">Champion</div>
+                                Donating a total over $250 makes you a Champion
                             </div>
                         </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick" />
+                                <input type="hidden" name="hosted_button_id" value="VMBU7LD92J95Y" />
+                                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1"
+                                    height="1" />
+                                <button id="Donate" alt="Donate with PayPal button">Donate</button>
+                            </form>
+                        </div>
+                    </div>
 
 
 

@@ -1,0 +1,19 @@
+
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.navbar-toggler{
+    border: 2px solid black;
+}
+
+.dropdown-item{
+    text-transform: uppercase;
+}
+
+.first-row{
+    margin-top: 110px;
+}

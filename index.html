@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <title>Spectrum Connections</title>
     
-
     <!-- favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -17,6 +16,8 @@
     <!-- Style Sheets -->
     <link rel="stylesheet" href="public/css/reset.css">
     <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="public/css/navbar.css">
+    <link rel="stylesheet" href="public/css/view_specific/index.css">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -29,35 +30,30 @@
 <body>
 
     <div class="wrapper">
-        <header>
+
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(171, 191, 209);">
+            
             <a href="#">
                 <div id="header-logo"></div>
             </a>
 
-        </header>
-
-
-        <nav class="navbar navbar-expand-lg navbar-dark  navbar-underheader" style="background-color: #130C31;">
-            <a class="navbar-brand" href="#">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i style="font-size:24px;color:black" class="fa">&#xf103;</i>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="views/mission.html">Mission
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link  " href="views/services.html">Services
-                            <!-- <span class="sr-only">(current)</span> -->
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="views/about.html">About Us</a>
-                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About us</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="views/about.html">Leadership</a>
+                          <a class="dropdown-item" href="views/mission.html">Mission</a>
+                          <a class="dropdown-item" href="views/services.html">Services</a>
+                          <a class="dropdown-item" href="views/links.html">News and Events</a>
+                        </div>
+                      </li>
+                   
                     <li class="nav-item">
                         <a class="nav-link" href="views/supportus.html">Support Us</a>
                     </li>
@@ -66,12 +62,12 @@
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav> 
 
         <div class="container">
-            <div class="row">
+            <div class="row first-row">
                 <div class="col-sm">
-                    <h1>Spectrum Connections:</h1>
+                    <h1>Spectrum Connections</h1>
                     <br>
                     <h2>Building self advocacy and job readiness skills</h2>
                     <h2> for young adults on the spectrum. </h2>
@@ -116,7 +112,7 @@
             <div class="row">
                 <div class="col-sm">
                     <br>
-                    <h2>A job readiness resource for young adults with autism.</h2>
+                    <h2>A job readiness resource for young adults on the spectrum.</h2>
                     <hr>
                 </div>
             </div>
