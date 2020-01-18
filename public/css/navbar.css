@@ -1,9 +1,64 @@
 
 
+nav{
+    height: 100px;
+}
+
+#nav-logo{
+   
+   
+    height: 100px;
+    width: 450px;
+    margin: 2px;
+    display: block;
+    position: fixed;
+  
+   
+   
+    background-image: url("../images/SPECTRUM_CONNECTIONS_LOGOS.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mynav{
+    background-color: rgb(171, 191, 209);
+}
+
 .nav-link{
     text-decoration: none;
     color: black;
-    text-transform: uppercase;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* text-transform: uppercase; */
+}
+
+/* @media (min-width: 992px){
+    .nav-link{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+} */
+
+nav div ul li{
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: 400;
+    list-style-type: square; 
+    margin-left: 58px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav li{
+    margin-left: 1px;
+    list-style-type: none;
+}
+
+
+.navbar-underheader{
+    margin-top: 80px;
 }
 
 .navbar-toggler{
@@ -11,7 +66,8 @@
 }
 
 .dropdown-item{
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    color: black;
 }
 
 .first-row{
