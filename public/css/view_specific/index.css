@@ -8,9 +8,13 @@ h1{
 
 h2{
     font-size: 1.8em;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 .first-row{
     margin-top: 110px;
+}
+
+p{
+  line-height: 2;
 }
