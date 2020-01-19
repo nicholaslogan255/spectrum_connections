@@ -8,8 +8,9 @@
 }
 
 .tierbox{
-    background-color: white;
+    
     border: 1px solid black;
+    border-radius: 20px;
     text-align: center;
     padding: 20px 20px 0px 20px;
     margin-top: 10px;
@@ -19,7 +20,7 @@
 
 .suggested_donation{
     font-size: 40px;
-    color: darkgreen;
+    color: black;
     font-weight: 700;
     margin: 10px 0px;
 }

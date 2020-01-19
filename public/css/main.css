@@ -1,3 +1,25 @@
+
+
+/* Logo Colors */
+
+.red    {color: #a03123;}
+.orange {color: #c45527;}
+.yellow {color: #d18c2a;}
+.green  {color: #1f5b41;}
+.blue   {color: #0b406b;}
+.purple {color: #752f8b;}
+
+.red_bg    {background-color: #a03123;}
+.orange_bg {background-color: #c45527;}
+.yellow_bg {background-color: #d18c2a;}
+.green_bg  {background-color: #1f5b41;}
+.blue_bg   {background-color: #0b406b;}
+.purple_bg {background-color: #752f8b;}
+
+
+
+
+
 html, body {
     height: 100%;
     margin: 0;
@@ -229,4 +251,17 @@ button {
     padding: 12px 16px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.footer_logo_box{
+    width: 410px;
+    height: 100px;
+    margin: 10px auto ;
+    background-color: rgb(171, 191, 209);
+    border-radius: 30px;
+}
+.footer_logo{
+    width: 400px;
+    height: 100px;
+    margin: 0px auto ;
 }
