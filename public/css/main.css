@@ -17,16 +17,18 @@
 .purple_bg {background-color: #752f8b;}
 
 
-
-
-
 html, body {
     height: 100%;
+    width: 100%;
+    position: absolute;
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
 }
 
+body {
+    min-width: fit-content;
+}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     color: #130C31;
     margin-bottom: .5rem;
@@ -64,9 +66,7 @@ label{
     font-weight: bold;
 }
 
-body{
-    position: relative;
-}
+
 p{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
@@ -211,7 +211,7 @@ ul li{
   }
   footer,
   .push {
-    height: 350px;
+    height: 450px;
   }
 
 footer {
